@@ -1,0 +1,20 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*.$py.class
+
+# Virtual environment
+venv/
+.env
+
+# Data and output directories
+outputs/
+logs/
+
+# Model weights
+*.bin
+*.pt
+
+# Miscellaneous
+.DS_Store
+*.log

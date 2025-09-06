@@ -1,0 +1,15 @@
+# Core libraries
+pandas
+scikit-learn
+
+# Deep learning and transformers (optional, required for finetune_lora.py and interpretability)
+torch>=2.1.0
+transformers>=4.40.0
+datasets>=2.15.0
+accelerate>=0.27.0
+
+# Parameter‑efficient fine‑tuning
+peft>=0.6.0
+
+# 4‑bit quantization support
+bitsandbytes>=0.42.0
